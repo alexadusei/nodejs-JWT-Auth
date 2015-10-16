@@ -1,0 +1,12 @@
+{
+  "name": "nodeToken",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.4.0",
+    "morgan": "^1.6.1",
+    "pg": "^4.4.2"
+  }
+}
