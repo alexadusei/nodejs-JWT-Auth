@@ -17,7 +17,7 @@ var User = require('./app/models/user'); // get our postgres model
 // =================
 // = configuration =
 // =================
-var port = process.env.PORT || 8080; // used to create, sign, and verify tokens
+var port = process.env.PORT || 8080;
 var client = new pg.Client(config.database); // connect to database
 app.set('superSecret', config.secret) // secret variable
 
